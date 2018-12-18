@@ -14,6 +14,7 @@ namespace RampantRobots_Tieme
         public int Xboundary { get; set; }
         public int Yboundary { get; set; }
 
+
         public Mechanic(int xpos, int ypos)
         {
             this.Xpos = xpos;
