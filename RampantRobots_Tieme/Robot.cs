@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace RampantRobots_Tieme
 {
-    class program
+    public class Robot : GamePiece
     {
-        static void Main(string[] args)
+        public Robot(int xpos, int ypos)
         {
-            Factory FactoryTest = new Factory(4, 4, 6, 20, true);
-            FactoryTest.Run();
+            this.Xpos = xpos;
+            this.Ypos = ypos;
         }
-    }   
+    }
 }
